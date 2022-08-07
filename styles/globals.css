@@ -8,7 +8,6 @@ body, * {
   src: url('../asset/ITC Avant Garde Gothic CE Book.ttf');
   box-sizing: border-box;
   /* letter-spacing: .25rem; */
-
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -22,6 +21,8 @@ a {
 .main-container{
   margin: auto;
   width: 100%;
+  min-height: 70vh;
+
 }
 .coming-soon{
   display: flex;
@@ -29,7 +30,7 @@ a {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  min-height: 50vh;
+  min-height: 30vh;
   width: 100%
 }
 .coming-soon h2{
