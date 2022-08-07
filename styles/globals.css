@@ -142,6 +142,15 @@ a {
   width: 50%
 }
 
+.twitter-about {
+  color: red;
+  font-weight: bold;
+}
+
+.twitter-about:hover{
+  color: #1DA1F2
+}
+
 @media only screen and (max-width: 600px) {
   .about-content {
     width: 100%;

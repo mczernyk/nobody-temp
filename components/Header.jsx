@@ -19,12 +19,19 @@ const Header = () => {
         </div>
       </div>
       <div className='header-items'>
-
-        <div className='header-about'>
-          <Link href="/about">
-            <p>about</p>
-          </Link>
+        <div className='header-collections'>
+          <p onClick={() => handleVisible(menuVisible)}>collections</p>
+          {menuVisible && <div className='header-menu-items'>
+            <p>nobody</p>
+            <p>allstarz</p>
+            <p>cryptodickbutts</p>
+            <p>milady</p>
+            <p>milady aura</p>
+            <p>milady deriv</p>
+            <p>accessories</p>
+          </div>}
         </div>
+
       </div>
 
 
