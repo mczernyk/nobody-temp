@@ -17,6 +17,8 @@ const Home = ({}) => (
       <title>nobody</title>
       <meta property="og:title" content="nobody clothing"/>
       <meta property="og:description" content="nobody loves you"/>
+      <meta property="og:image" content="/images/nbCircle.png"/>
+
 
     </Head>
     <Header />
