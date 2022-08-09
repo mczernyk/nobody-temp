@@ -4,10 +4,12 @@ import Link from 'next/link';
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import {Product, FooterBanner, HeroBanner, Header} from '../components'
+
+import image1 from '../public/images/allstarz1black.png'
+import ComingSoon from '../components/ComingSoon';
 
 
-
-import {Header} from '../components'
 
 
 const Home = ({}) => (
@@ -19,6 +21,12 @@ const Home = ({}) => (
       <br></br>
       <h1>COMING SOON</h1>
       <br></br>
+      <div>
+
+      <ComingSoon/>
+
+
+      </div>
 
         <div className='about-content'>
           <p>nobody lets you create products from a curated group of NFT collections using assets in your web3 wallet. you own your NFTs, now you can do something with them.</p>
