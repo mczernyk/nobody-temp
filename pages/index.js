@@ -13,6 +13,12 @@ import image1 from '../public/images/allstarz1black.png'
 
 const Home = ({}) => (
   <div className='main'>
+    <Head>
+      <title>nobody</title>
+      <meta property="og:title" content="nobody clothing"/>
+      <meta property="og:description" content="nobody loves you"/>
+
+    </Head>
     <Header />
     <div className="about-container">
       <br></br>
