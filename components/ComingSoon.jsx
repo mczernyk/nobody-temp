@@ -57,7 +57,7 @@ const ComingSoon = () => {
         <Image
           src={currentPic}
           height='300px'
-          width='300p'
+          width='300px'
         />
       </div>
 

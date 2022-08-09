@@ -313,10 +313,6 @@ width: 100%
   transition: transform 0.5s ease;
 }
 
-.product-card:hover{
-  transform: scale(1.05,1.05)
-}
-
 .product-image{
   border-radius: 10px;
   height: 250px;

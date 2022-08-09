@@ -4,17 +4,16 @@ import Link from 'next/link';
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import {Product, FooterBanner, HeroBanner, Header} from '../components'
+import {Product, FooterBanner, HeroBanner, ComingSoon, Previews, Header} from '../components'
 
 import image1 from '../public/images/allstarz1black.png'
-import ComingSoon from '../components/ComingSoon';
 
 
 
 
 const Home = ({}) => (
   <div className='main'>
-    <Header/>
+    <Header />
     <div className="about-container">
       <br></br>
       <br></br>
@@ -23,7 +22,7 @@ const Home = ({}) => (
       <br></br>
       <div>
 
-      <ComingSoon/>
+      <Previews />
 
 
       </div>
