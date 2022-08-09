@@ -2,10 +2,19 @@ html,
 body, * {
   padding: 0;
   margin: 0;
-  /* font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif; */
-  font-family: "ITC Avant Garde Gothic";
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif, 'ITC Avant Garde Gothic LT Bold', 'ITC Avant Garde Gothic LT Book Regular';
   box-sizing: border-box;
 }
+
+/* @font-face {
+  font-family: "ITC Avant Garde Gothic LT";
+  src: url('../public/fonts/ITC Avant Garde Gothic LT Bold.otf') format('opentype');
+};
+
+@font-face {
+  font-family: "ITC Avant Garde Gothic";
+  src: url('../public/fonts/ITC Avant Garde Gothic CE Book.otf') format('opentype');
+}; */
 
 ::-webkit-scrollbar {
   width: 0px;
@@ -16,37 +25,15 @@ a {
   text-decoration: none;
 }
 
-.main  {
-  min-height: 70vh
-}
-
 .main-container{
-  margin: auto;
-  width: 100%;
-  min-height: 70vh;
-
-}
-.coming-soon{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  min-height: 50vh;
-  width: 100%
-}
-.coming-soon h2{
-  text-align: center;
-  width: 100%;
-  color: red;
+margin: auto;
+width: 100%
 }
 
 .layout{
   padding: 10px;
   width: 100%;
   max-width: 100vw;
-  height: 100%;
-  min-height: 100vh;
 }
 
 .navbar-container{
@@ -61,6 +48,11 @@ a {
   justify-content: flex-start;
   align-items: center;
 }
+
+.navbar-left h1{
+  font-family: "ITC Avant Garde Gothic LT Bold";
+}
+
 .navbar-right{
   display: flex;
   flex-direction: row;
@@ -113,17 +105,19 @@ a {
   text-decoration: underline wavy red;
   text-transform: uppercase;
   padding: 10px;
+  font-family: "ITC Avant Garde Gothic LT Bold";
 }
 
 .about-container h2 {
   text-align: center;
   color: red;
-  padding: 40px
+  padding: 40px;
+  font-family: "ITC Avant Garde Gothic LT Bold";
 }
 
 .about-container h3 {
   text-align: center;
-  padding: 20px
+  padding: 20px;
 }
 
 .about-container h3:hover {
@@ -220,10 +214,11 @@ a {
     -webkit-text-stroke: 1px #f02d34;
     margin-left: 6px;
 }
-.logo{
+.logo {
   color: black;
   font-size: 18px;
 }
+
 .logo:hover{
   color: red;
   font-size: 18px;
@@ -303,8 +298,9 @@ a {
   text-align: center;
   text-decoration: underline wavy red;
   text-transform: uppercase;
-
   padding: 10px;
+  font-family: "ITC Avant Garde Gothic LT Bold";
+
 }
 
 .product-card{
@@ -391,9 +387,12 @@ a {
   padding: 20px;
   border: white 10px solid;
   border-radius: 50%;
-  font-family: "ITC Avant Garde Gothic LT";
 }
 
+.header-title-box h1 {
+  font-family: "ITC Avant Garde Gothic LT Bold";
+
+}
 .title-underline {
   /* text-decoration: underline wavy red; */
 }
@@ -413,6 +412,10 @@ a {
   flex-direction: row;
   width: 100%;
 }
+.header-collections p {
+  font-family: "ITC Avant Garde Gothic LT Bold"
+}
+
 .header-collections p:hover {
   text-decoration: underline wavy red;
   cursor: pointer;
@@ -437,6 +440,10 @@ a {
 .header-about:hover {
   text-decoration: underline wavy red;
   cursor: pointer;
+}
+
+.header-about p {
+  font-family: "ITC Avant Garde Gothic LT Bold";
 }
 
 .hero-banner-container{
@@ -599,14 +606,6 @@ text-align: end;
 
 }
 
-.footer-wrapper{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
 .footer-container{
   display: flex;
   flex-direction: column;
@@ -617,11 +616,10 @@ text-align: end;
   margin-top: 20px;
   padding: 30px 10px;
   font-weight: 500;
+  width: 100%;
   border-radius: 10px;
   gap: 10px;
-  width: 100%;
   justify-content: center;
-  position: relative; bottom: 0;
 }
 .footer-container .icons{
   font-size: 30px;
@@ -817,12 +815,17 @@ padding: 30px 65px;
 }
 .product-detail-desc h3{
   margin-top: 10px;
+  font-family: "ITC Avant Garde Gothic LT Bold";
+
 }
 .product-detail-desc h1{
   text-transform: uppercase;
+  font-family: "ITC Avant Garde Gothic LT Bold";
+
 }
 .product-detail-desc p{
   margin-top: 10px;
+  white-space: pre-wrap
 }
 .reviews p{
   color: black;
@@ -850,6 +853,8 @@ padding: 30px 65px;
   margin-top: 10px ;
   align-items: flex-end;
   justify-content: flex-start;}
+
+
 .product-detail-desc .buttons{
   display: flex;
   gap: 30px;
@@ -927,8 +932,9 @@ padding: 30px 65px;
   color: black;
   text-decoration: underline wavy red;
   text-transform: uppercase;
-
   font-size: 28px;
+  font-family: "ITC Avant Garde Gothic LT Bold";
+
 }
 .maylike-products-container{
   display: flex;
