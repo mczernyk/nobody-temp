@@ -12,12 +12,12 @@ const Previews = () => {
       '/images/milady2black.png',
       '/images/nnnpurple.png',
       '/images/miaurawhite.png',
-      '/images/loveberry.png',
-      '/images/cdb1purple.png',
-      '/images/passenger black.png',
       '/images/allstarz2berry.png',
+      '/images/milaidynavy.png',
+      '/images/passenger black.png',
+      '/images/cdb1purple.png',
+      '/images/lovewhite.png',
       '/images/tiedyeblack.png',
-      '/images/milaidypurple.png',
     ]
 
 
