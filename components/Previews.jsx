@@ -10,8 +10,9 @@ const Previews = () => {
 
     const picsArray = [
       '/images/milady2black.png',
-      '/images/loveberry.png',
+      '/images/nnnpurple.png',
       '/images/miaurawhite.png',
+      '/images/loveberry.png',
       '/images/cdb1purple.png',
       '/images/allstarz2berry.png',
       '/images/passenger black.png',
