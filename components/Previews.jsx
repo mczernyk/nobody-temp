@@ -18,6 +18,7 @@ const Previews = () => {
       '/images/cdb1purple.png',
       '/images/lovewhite.png',
       '/images/tiedyeblack.png',
+      '/images/remilionavy.png'
     ]
 
 
