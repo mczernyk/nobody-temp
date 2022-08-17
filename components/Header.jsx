@@ -28,6 +28,7 @@ const Header = () => {
             <p>milady</p>
             <p>milady aura</p>
             <p>milady deriv</p>
+            <p>remilio</p>
             <p>accessories</p>
           </div>}
         </div>
