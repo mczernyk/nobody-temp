@@ -6,8 +6,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {Product, FooterBanner, HeroBanner, ComingSoon, Previews, Header} from '../components'
 
-import image1 from '../public/images/allstarz1black.png'
-
 
 
 
@@ -26,7 +24,7 @@ const Home = ({}) => (
       <br></br>
       <br></br>
       <br></br>
-      <h1>COMING SOON</h1>
+      <h1>STORE OPENS 8/22 @ 1PM EST</h1>
       <br></br>
       <div>
 
